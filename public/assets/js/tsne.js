@@ -40,8 +40,6 @@
 * atlasesPerTex: number of atlases to include in each texture
 **/
 
-var API_KEY=process.env.API_KEY;
-
 function Config() {
   this.data = {
     dir: 'data',
