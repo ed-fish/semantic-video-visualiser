@@ -40,6 +40,8 @@
 * atlasesPerTex: number of atlases to include in each texture
 **/
 
+var API_KEY=process.env.API_KEY;
+
 function Config() {
   this.data = {
     dir: 'data',
@@ -2279,7 +2281,7 @@ function authenticate() {
               function(err) { console.error("Error signing in", err); });
   }
 function loadClient() {
-    gapi.client.setApiKey(YOUTUBE_API_KEY);
+    gapi.client.setApiKey(API_KEY);
     return gapi.client.load("https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest")
         .then(function() { console.log("GAPI client loaded for API"); },
               function(err) { console.error("Error loading GAPI client for API", err); });
