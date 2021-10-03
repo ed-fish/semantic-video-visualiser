@@ -4,7 +4,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
     <link rel='stylesheet' type='text/css' href='assets/css/no-ui-slider.css'>
     <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
-    <title>Visualizing Image Fields</title>
+    <title>Semantic Video Embeddings Visualiser</title>
     <meta charset='utf-8'/>
     <meta name='author' content='Douglas Duhaime'>
   </head>
@@ -349,8 +349,8 @@
       <a href='' target='_blank'>
         <img id='logo' src='assets/images/icons/logo.png' alt='DMA' />
       </a>
-      <div id='app-name'>Genre Clustering</div>
-      <div class='tagline'>Multi-modal genre clustering</div>
+      <div id='app-name'>Movie embedding visualiser</div>
+      <div class='tagline'>Semantic video embedding visualisation of audio-visual similarity</div>
       <div id='header-controls'>
         <div id='range-slider'>
           <label>Point Size</label>
@@ -371,7 +371,7 @@
     <div id='tooltip'></div>
     <!-- Loader -->
     <div id='loader-scene'>
-      <p class='welcome'>This page visualizes multi-modal embeddings extracted from a variety of random trailers. The modal attempts to group film trailers of similiar genre and style in clusters. </p>
+      <p class='welcome'>An interactive T-SNE and UMAP projection of movie trailer embeddings, clustered using the method outlined in <a href="https://arxiv.org/abs/2012.02639">Rethinking genre with fine-grained multi-modal experts</a> </p>
       <div class='loader-container'>
         <div class='loader-icon'>
           <div class='blocks'>
