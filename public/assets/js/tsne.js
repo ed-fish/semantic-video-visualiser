@@ -2346,7 +2346,7 @@ var vid_name = filename.slice(0, -4)
 
     },
 	    function(err) { console.log("Error", err);});
-  self.isExecuted = true;
+  this.isExecuted = true;
   }
 }
 
