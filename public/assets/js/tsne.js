@@ -2341,9 +2341,7 @@ var vid_name = filename.slice(0, -4)
     var vid_search = gapi.client.youtube.search.list({"q" : vid_name + "movie trailer", maxResults: 2}).then(function(response) {
 	    var first_vid = response.result.items[0].id.videoId;
 	    console.log(first_vid)
-
-	    document.getElementById('yt-vid').getElementsByTagName("iframe")[0].src = `https://www.youtube.com/embed/${first_vid}`;
-
+	    document.getElementById('yt-vid').getElementsByTagName("iframe")[0].src = `//www.youtube-nocookie.com/embed/${first_vid}`;
     },
 	    function(err) { console.log("Error", err);});
   this.isExecuted = true;
