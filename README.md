@@ -1,7 +1,7 @@
 # semantic-video-visualiser
 An interactive visualisation of semantically similar movie trailers. 
 
-Visit the page here https://semantic-video-visualiser-g6n4qaxte-ed-fish.vercel.app/#
+Visit the page [here](https://semantic-video-visualiser-g6n4qaxte-ed-fish.vercel.app/#)
 
 https://user-images.githubusercontent.com/60140216/135760049-aacc66e0-7683-4b58-8d0e-fe36687056de.mp4
 
